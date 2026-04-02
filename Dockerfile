@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python3", "--version"]
+EXPOSE 8000
+
+CMD ["python3", "app.py"]
